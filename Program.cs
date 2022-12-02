@@ -10,3 +10,6 @@ var edad = int.Parse(Console.ReadLine());
 Console.WriteLine($"Mi Nombre: {nombre}, Mi Cargo: {cargo}, Mi Edad: {edad.ToWords()}");
 
 Console.WriteLine($"Mi Nombre: {nombre}, Mi Cargo: {cargo}, Mi Edad: {edad.ToWords(new System.Globalization.CultureInfo("es"))}");  // Spanish
+
+DateTime fecha = DateTime.Now;
+Console.WriteLine($"Fecha: {fecha.ToOrdinalWords()}");
