@@ -4,6 +4,7 @@
 - dotnet new --list    # Listar plantillas
 - dotnet new console   # Crea un nuevo proyecto de consola 
 - dotnet run           # Compila y ejecuta el proyecto
+- dotnet info          # Ver todas las versiones de los componentes de .NET Core que tenemos instalados
 
 - dotnet new webapi    # Crea un nuevo proyecto webapi
 
@@ -21,3 +22,16 @@ archivo.exe es el ejecutable del proyecto
 # Modo release
 Elimina los archivos que no se necesitan en modo de produccion, creando una version mas liviana del proyecto
 - dotnet build --configuration release
+
+# Crear archivo de configuracion global json
+- dotnet new globaljson
+Podemos forzar la configuracion de las vesiones de los componentes de .NET Core que queremos usar
+
+# instalar paquetes nuget desde la linea de comandos
+# https://www.nuget.org/
+- dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+# instalacion de humanizer
+- dotnet add package Humanizer --version 2.14.1
+
+# podemos encontrar los paquetes instalados en el archivo .csproj
