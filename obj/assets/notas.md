@@ -35,3 +35,5 @@ Podemos forzar la configuracion de las vesiones de los componentes de .NET Core 
 - dotnet add package Humanizer --version 2.14.1
 
 # podemos encontrar los paquetes instalados en el archivo .csproj
+- humanizer nos permite trabajar con fechas de una forma mas amigable
+convierte una fecha en un texto o algun numero.
